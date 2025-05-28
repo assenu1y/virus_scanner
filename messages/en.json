@@ -1,0 +1,50 @@
+{
+  "kk": "Kazakh",
+  "ru": "Russian",
+  "en": "English",
+  "upload": "Upload",
+  "scan": "Scan",
+  "mainText": "Upload a file you want to scan",
+  "scannedFile": "Scanned File",
+  "footer": "© Virus Scanner {year} by Ayan",
+  "stats": {
+    "stats": "Stats",
+    "malicious": "Malicious",
+    "suspicious": "Suspicious",
+    "undetected": "Undetected",
+    "harmless": "Harmless",
+    "timeout": "Timeout",
+    "confirmed-timeout": "Confirmed Timeout",
+    "failure": "Failure",
+    "type-unsupported": "Type Unsupported",
+    "category": "Category",
+    "value": "Value"
+  },
+  "file_info": {
+    "file_info": "File Information",
+    "property": "Property",
+    "size": "Size",
+    "unit": "Unit",
+    "value": "Value",
+    "bytes": "Bytes",
+    "MB": "MB"
+  },
+  "antiviruses": {
+    "antiviruses": "Antiviruses",
+    "method": "Method",
+    "engine_name": "Name",
+    "engine_version": "Version",
+    "engine_update": "Update Date",
+    "category": "Category",
+    "result": "Result",
+
+    "malicious": "Malicious",
+    "suspicious": "Suspicious",
+    "undetected": "Undetected",
+    "harmless": "Harmless",
+    "timeout": "Timeout",
+    "confirmed-timeout": "Confirmed Timeout",
+    "failure": "Failure",
+    "type-unsupported": "Type Unsupported"
+  }
+}

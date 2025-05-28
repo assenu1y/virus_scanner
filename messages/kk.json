@@ -1,0 +1,50 @@
+{
+  "kk": "Қазақша",
+  "ru": "Орысша",
+  "en": "Ағылшынша",
+  "upload": "Жүктеу",
+  "scan": "Сканерлеу",
+  "mainText": "Сканерлегіңіз келетін файлды жүктеңіз",
+  "scannedFile": "Сканерленген Файл",
+  "footer": "© Virus Scanner {year} Аяннан",
+  "stats": {
+    "stats": "Статистика",
+    "malicious": "Зиянды",
+    "suspicious": "Күдікті",
+    "undetected": "Анықталмаған",
+    "harmless": "Зиянсыз",
+    "timeout": "Таймаут",
+    "confirmed-timeout": "Қабылданған Таймаут",
+    "failure": "Сәтсіз",
+    "type-unsupported": "Қолдау көрсетілмейді",
+    "category": "Санат",
+    "value": "Мәні"
+  },
+  "file_info": {
+    "file_info": "Файл Жайлы Ақпарат",
+    "property": "Меншік",
+    "size": "Көлемі",
+    "unit": "Өлшем бірлігі",
+    "value": "Мәні",
+    "bytes": "Байт",
+    "MB": "МБ"
+  },
+  "antiviruses": {
+    "antiviruses": "Антивирустар",
+    "method": "Әдіс",
+    "engine_name": "Аты",
+    "engine_version": "Нұсқасы",
+    "engine_update": "Жаңарту Күні",
+    "category": "Санат",
+    "result": "Нәтиже",
+
+    "malicious": "Зиянды",
+    "suspicious": "Күдікті",
+    "undetected": "Анықталмаған",
+    "harmless": "Зиянсыз",
+    "timeout": "Таймаут",
+    "confirmed-timeout": "Қабылданған Таймаут",
+    "failure": "Сәтсіз",
+    "type-unsupported": "Қолдау көрсетілмейді"
+  }
+}

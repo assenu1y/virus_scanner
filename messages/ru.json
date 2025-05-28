@@ -1,0 +1,50 @@
+{
+  "kk": "Казахский",
+  "ru": "Руский",
+  "en": "Английский",
+  "upload": "Загрузить",
+  "scan": "Сканировать",
+  "mainText": "Загрузите файл, который хотите отсканировать",
+  "scannedFile": "Сканированный Файл",
+  "footer": "© Virus Scanner {year} от Аян",
+  "stats": {
+    "stats": "Статистика",
+    "malicious": "Вредный",
+    "suspicious": "Подозрительный",
+    "undetected": "Незамеченный",
+    "harmless": "Безвредный",
+    "timeout": "Таймаут",
+    "confirmed-timeout": "Подтвержденный Таймаут",
+    "failure": "Неудача",
+    "type-unsupported": "Тип Не Поддерживается",
+    "category": "Категория",
+    "value": "Значение"
+  },
+  "file_info": {
+    "file_info": "Информация О Файле",
+    "property": "Свойство",
+    "size": "Размер",
+    "unit": "Единица измерения",
+    "value": "Значение",
+    "bytes": "Байтов",
+    "MB": "МБ"
+  },
+  "antiviruses": {
+    "antiviruses": "Антивирусы",
+    "method": "Метод",
+    "engine_name": "Название",
+    "engine_version": "Версия",
+    "engine_update": "Дата Обновления",
+    "category": "Категория",
+    "result": "Результат",
+
+    "malicious": "Вредный",
+    "suspicious": "Подозрительный",
+    "undetected": "Незамеченный",
+    "harmless": "Безвредный",
+    "timeout": "Таймаут",
+    "confirmed-timeout": "Подтвержденный Таймаут",
+    "failure": "Неудача",
+    "type-unsupported": "Тип Не Поддерживается"
+  }
+}
