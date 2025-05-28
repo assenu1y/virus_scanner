@@ -4,7 +4,7 @@ import {Flex, theme, Typography, Upload} from "antd";
 import {UploadRequestOption} from "rc-upload/lib/interface";
 import {useLocale, useTranslations} from "next-intl";
 import logo from "/assets/virus_scanner.webp"
-import {useRouter} from "@/navigation";
+import {Locale, useRouter} from "@/navigation";
 
 const {Paragraph} = Typography
 
@@ -28,7 +28,7 @@ export default function Home({params}: { params: { locale: string } }) {
             onProgress && onProgress({percent: 100})
             onSuccess && onSuccess({data})
             console.log({data})
-            router.push(`/file/${data?.id}`, {locale: locale})
+            router.push(`/file/${data?.id}`, {locale: locale as Locale})
         } catch (error) {
             onProgress && onProgress({percent: 100})
             if (error instanceof Error) { // Checking if error is an instance of Error

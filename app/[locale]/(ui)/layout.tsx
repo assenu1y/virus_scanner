@@ -6,7 +6,7 @@ import React from "react";
 import {Flex, Layout, Select, theme} from 'antd';
 import Image from 'next/image'
 import logo from "/assets/virus_scanner.webp"
-import {usePathname, useRouter} from "@/navigation";
+import {Locale, usePathname, useRouter} from "@/navigation";
 
 
 const {Header, Footer, Content} = Layout;
@@ -84,8 +84,8 @@ export default function UILayout({
                             ]}
                             defaultValue={[locale]}
                             onChange={(locales,option) => {
-                                const selectedOption = option as { title: string; value: string; label: string }; // Type assertion here
-                                router.replace(pathname, { locale: selectedOption.value });
+                                const selectedOption = option as { title: string; value: Locale; label: string }; // Type assertion here
+                                router.replace(pathname, { locale: selectedOption.value as Locale });
                             }}
                         >
                         </Select>
